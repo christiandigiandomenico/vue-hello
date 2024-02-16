@@ -5,9 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello world</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">
+
+        <h1 :class="testo">
+            {{ saluto }}
+        </h1>
+
+
+        <img :src="immagine" alt="world">
+
+    </div>
 
     <script src="./js/script.js"></script>
 
